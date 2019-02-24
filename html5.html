@@ -1,52 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>HTML 5</title>
-
-    <style>
-        body {
-            background: url(/video/hoya.jpg) no-repeat;
-            background-size: cover;
-        }
-        dialog {
-            background: rgba(255, 255, 255, 0.7);
-            width: 300px;
-            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-            border-radius: 5px;
-        }
-    </style>
-
-</head>
+<html>
 <body>
 
-
-<details>
-    <summary>Весна</summary>
-    <p>В Минске расцвела сирень!</p>
-</details>
-
-<p>----------------------------------------</p>
-
-<button id="openDialog">Открыть окно</button>
-<dialog>
-    <p><button id="closeDialog"> Х </button></p>
-
-    <p>Hoya, восковой плющ – вечнозеленая лиана из семейства ластовневых (Asclepiadaceae).
-        Хойя - одно из немногих вьющихся комнатных растений, цветущих в домашних условиях.
-        Ее цветки -  изящные, белые, розовые, желтоватые звездочки, собранные в зонтиковидные соцветия.</p>
-</dialog>
-<script>
-    var dialog = document.querySelector('dialog');
-    document.querySelector('#openDialog').onclick = function() {
-        dialog.show();  // Показываем диалоговое окно
-    };
-    document.querySelector('#closeDialog').onclick = function() {
-        dialog.close();  // Прячем диалоговое окно
-    }
-</script>
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/C3lWwBslWqg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </body>
 </html>
